@@ -1,0 +1,157 @@
+html, body {  
+     font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url(./6e669a3f-2fec-4735-a95e-ec70ae0b9835.jfif);
+background-size: cover;
+    background-position: center;
+padding: 20px;
+}
+.header {
+    text-align: center;
+    max-width: 750px;
+    margin-bottom: 25px;
+}
+.header h1 {
+
+    color: #0288d1;
+}
+.header p {
+line-height: 1.5;
+    color: #37474f;
+ 
+}
+.content-box {
+    display: flex;
+    width: 100%;
+     gap: 30px;
+ 
+   align-items: center;
+}
+.info-side {
+flex: 1;
+display: flex;
+flex-direction: column;
+}
+
+.info-item {
+display: flex;
+align-items: center;
+gap: 20px;
+
+}
+
+
+.info-item:hover {
+    transform: translateX(5px);
+}
+
+.info-item .icon {
+    width: 48px;
+    height: 48px;
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00838f;
+    font-size: 1.1rem;
+
+}
+
+.info-item:hover .icon {
+    background-color: #0288d1;
+    color: #ffffff;
+}
+
+.info-item .details h3 {
+    font-size: 1rem;
+    color: #0288d1;
+ 
+}
+
+.info-item .details p {
+    font-size: 0.85rem;
+    color: #616161;
+}
+
+
+.form-side {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px 30px;
+    border-radius: 10px;
+    border-top: 5px solid #0288d1;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-side h2 {
+    font-size: 1.75rem;
+    color: #555555;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #37474f;
+    outline: none;
+    padding: 8px 0;
+    font-size: 0.9rem;
+    background: transparent;
+    transition: border-color 0.3s ease;
+    color: #333;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: #9e9e9e;
+    font-size: 0.85rem;
+}
+
+
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-bottom-color: #0288d1;
+}
+
+
+.input-group input:required:invalid:focus,
+.input-group textarea:required:invalid:focus {
+    border-bottom-color: #e53935;
+}
+
+
+
+
+.btn-send {
+ background-color: #0288d1;
+    color: #ffffff;
+    border: none;
+
+    padding: 10px 28px;
+    font-size: 0.95rem;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+
+}
+
+.btn-send:hover {
+    background-color: #01579b;
+
+}
+
